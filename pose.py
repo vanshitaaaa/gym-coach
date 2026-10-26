@@ -2,7 +2,7 @@ import sys
 import cv2
 import numpy as np
 
-MODEL = "models/yolov8n-pose.onnx"
+MODEL = "yolov8n-pose.onnx"
 SIZE = 640
 net = cv2.dnn.readNetFromONNX(MODEL)
 
